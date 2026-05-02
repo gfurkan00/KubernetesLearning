@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: job-with-sidecar
+spec:
+  template:
+    spec:
+      restartPolicy: Never                # job classico: non riavviare a fine
+
+      containers:
+      - name: worker
+        image: busybox:1.36
+        command: ['sh', '-c', 'echo "Job iniziato"; sleep 5; echo "Job finito"; exit 0']
+
+      initContainers:
+      - name: helper-sidecar
+        image: busybox:1.36
+        restartPolicy: Always             # 👈 sidecar in loop infinito
+        command: ['sh', '-c', 'while true; do echo "[$(date)] sidecar still here"; sleep 2; done']
