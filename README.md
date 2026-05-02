@@ -21,9 +21,12 @@ Ogni tutorial ha il suo file di note nella cartella della sezione: comandi princ
 - [x] [Adopting Sidecar Containers](https://kubernetes.io/docs/tutorials/configuration/pod-sidecar-containers/) → [note](03-configuration/03-adopting-sidecar-containers.md)
 - [x] [PersistentVolume for Storage](https://kubernetes.io/docs/tutorials/configuration/configure-persistent-volume-storage/) → [note](03-configuration/04-configure-persistent-volume-storage.md)
 
+## 04 - Stateless Applications
+- [x] [Exposing an External IP Address](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/) → [note](04-stateless-apps/01-expose-external-ip-address.md)
+- [ ] [PHP Guestbook with Redis](https://kubernetes.io/docs/tutorials/stateless-application/guestbook/)
+
 ## Da fare
 
-- 04 - Stateless Applications
 - 05 - Stateful Applications
 - 06 - Services
 - 07 - Security
