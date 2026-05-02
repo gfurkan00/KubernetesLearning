@@ -23,7 +23,7 @@ Ogni tutorial ha il suo file di note nella cartella della sezione: comandi princ
 
 ## 04 - Stateless Applications
 - [x] [Exposing an External IP Address](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/) → [note](04-stateless-apps/01-expose-external-ip-address.md)
-- [ ] [PHP Guestbook with Redis](https://kubernetes.io/docs/tutorials/stateless-application/guestbook/)
+- [x] [PHP Guestbook with Redis](https://kubernetes.io/docs/tutorials/stateless-application/guestbook/) → [note](04-stateless-apps/02-php-guestbook-with-redis.md)
 
 ## Da fare
 
